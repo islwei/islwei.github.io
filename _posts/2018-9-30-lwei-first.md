@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "这是Elijah进行的第一篇文章"
-categories: SnakeSon
+categories: Elijah
 tags:  hexo JavaScript
 author: SnakeSon
 ---
