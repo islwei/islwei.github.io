@@ -11,13 +11,11 @@ type: page
 
 ## 关于我
 
-<iframe src="https://githubbadge.appspot.com/gaohaoyang?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
-
 ```md
- * Web前端开发工程师
- * C#后端开发工程师
- * Python开发工程师
- * 微信小程序开发工程师
+* Web前端开发工程师
+* C#后端开发工程师
+* Python开发工程师
+* 微信小程序开发工程师
 ```
 
 目前主要兴趣集中在前端开发，很有趣。
@@ -31,11 +29,12 @@ type: page
 ## 联系我
 
 * GitHub：[lweiGitHub](https://github.com/lweiGitHub)
-* email：Elijah.Wei@Outlook.com
+* Email：elijah.wei@outlook.com
 
 ## 关于本站
 
-**若您想使用这个 jekyll 博客主题，请访问：[https://github.com/Gaohaoyang/gaohaoyang.github.io](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
+若您想使用这个 jekyll 博客主题，请访问：[https://github.com/Gaohaoyang/gaohaoyang.github.io](https://github.com/Gaohaoyang/gaohaoyang.github.io)
+
 同时在这里感谢[Gaohaoyang](https://github.com/Gaohaoyang)的杰出贡献！
 
 ~欢迎使用~
