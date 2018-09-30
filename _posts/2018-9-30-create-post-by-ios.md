@@ -1,9 +1,9 @@
 ---
 layout:post
-Title:手机写博客啦，真好！
+Title: "手机写博客啦，真好！"
 categories:Personal-Post
-tags:posts
-Author:Elijah
+tags: posts
+author: Elijah
 ---
 ##手机写博客
 APP名字叫CodeHub也是GitHub上的一个工程
