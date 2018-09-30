@@ -1,9 +1,9 @@
 ---
-layout:post
-Title:"手机写博客啦，真好！"
-categories:Personal-Post
-tags:posts
-Author:Elijah
+layout: post
+title: "手机写博客啦，真好！"
+categories: Personal-Post
+tags: posts
+author: Elijah
 ---
 
 * content
