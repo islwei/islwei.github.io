@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "这是Elijah进行的第一篇文章"
-categories: Personal Post
+categories: Personal-Post
 tags:  hexo JavaScript
 author: Elijah
 ---
@@ -91,4 +91,5 @@ cd 643435675.github.io  文件夹下
 
 不进行添加的话，首页会把整篇文章完全展示出来，添加了四个空行之后就只会显示部分了，当然了，这篇文章在首页是显示的部分，也就是**目的下的内容**
 
-
+## 瞎几把说说
+啦啦啦啦啦啦啦啦啦 我也不知道能写多少帖子，希望能够坚持吧
