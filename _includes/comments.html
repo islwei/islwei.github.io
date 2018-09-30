@@ -44,3 +44,22 @@
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 {% endif %}
+
+{% site.gitalkEnable %}
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script type="text/javascript">
+    const gitalk = new Gitalk({
+		clientID: '7e09e3c8055410242649',
+		clientSecret: '7eb3cebd99bf48e12910947656c43276a88478cb',
+		repo: 'lweigithub.github.io',
+		owner: 'lweigithub',
+		admin: ['lweigithub'],
+		id: site.url,      // Ensure uniqueness and length less than 50
+		distractionFreeMode: false  // Facebook-like distraction free mode
+})
+
+gitalk.render('gitalk-container')        
+</script>
+{% endif %}
