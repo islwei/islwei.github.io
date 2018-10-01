@@ -8,15 +8,15 @@
 # Site settings
 title: Elijah's Blog
 brief-intro: Normal Coder
-baseurl: "https://lweigithub.github.io" # the subpath of your site, e.g. /blog
-url: "https://lweigithub.github.io" # the base hostname & protocol for your site
+baseurl: "https://islwei.github.io" # the subpath of your site, e.g. /blog
+url: "https://islwei.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
 # other links
 twitter_username: 
 facebook_username: 
-github_username:  lweigithub
+github_username:  islwei
 email: Elijah.Wei@Outlook.com
 weibo_username: 
 zhihu_username: 
