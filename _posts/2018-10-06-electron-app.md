@@ -11,7 +11,7 @@ author: Elijah
 
 ## 目的
 
-最近搭建了Github Blog，但是写Blog真是恐怖，blog就是个MarkDown file，上传到Github jekyll矿建会转换
+最近搭建了Github Blog，但是写Blog真是恐怖，blog就是个MarkDown file，上传到Github jekyll框架架会自动转换
 所以想用electron搭建个APP去生成MD文件，如果可以的话直接上传到Github仓库
 博主也是第一次接触Electron，都是参考的其他博客中的方法，然后整理实践的.
 话不多说，开始第一个App搭建！
