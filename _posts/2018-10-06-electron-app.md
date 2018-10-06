@@ -79,12 +79,12 @@ $ electron-packager . BlogEditor --platform=win32 --arch=x64 --icon=../img/favic
 * `asar`：采用asar封装和加密app目录
 * `app-version` app版本
 
-命令执行成功之后，包会输出到工程根目录里
+命令执行成功之后，包会输出到工程根目录里   
+![config](https://i.loli.net/2018/10/06/5bb8c57c55cfb.png 'config')
 
-![config](https://i.loli.net/2018/10/06/5bb893d9d7059.png 'config')
-
-不过这种打包命令的参数太多，有点反人类，所以我们可以像上面图片中蓝色框中的配置一样，简单命令就可以实现相同效果
-所以新的打包命令就是
+不过这种打包命令的参数太多，有点反人类，所以我们写在package.json中，这样简单命令就可以实现相同效果
+![config](https://i.loli.net/2018/10/06/5bb8c57c62703.png 'config')
+配置package.json之后的打包命令
 ```md
 $ npm run-script packager
 ```
