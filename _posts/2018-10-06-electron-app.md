@@ -38,7 +38,7 @@ $ npm install && npm start
 
 其实这时你的app已经可以运行了
 只不过，只是一个框架而已，还没有实现业务逻辑，诸位看官自己实现啦~
-![tool](https://github.com/islwei/islwei.github.io/blob/master/_picture/config.png''tool'')
+![tool](https://i.loli.net/2018/10/06/5bb89172860e9.png 'tool')
 
 ## 打包
 博主用的是[electron-packager](https://github.com/electron-userland/electron-packager)
@@ -71,7 +71,7 @@ $ electron-packager . BlogEditor --platform=win32 --arch=x64 --icon=../img/favic
 ```
 包就会打在根目录里
 
-![config](https://github.com/islwei/islwei.github.io/blob/master/_picture/toolimg1.png''config'')
+![config](https://github.com/islwei/islwei.github.io/blob/master/_picture/toolimg1.png 'config')
 
 不过这种打包命令的参数太多，有点反人类，所以我们可以像上面图片中蓝色框中配置一下，然后简单命令就可以实现相同效果
 新的打包命令就是
