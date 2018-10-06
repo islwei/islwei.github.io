@@ -9,12 +9,14 @@ author: Elijah
 * content
 {:toc}
 
-## 目的
-
-最近搭建了Github Blog，但是写Blog真是恐怖，blog就是个MarkDown file，上传到Github jekyll框架架会自动转换
-所以想用electron搭建个APP去生成MD文件，如果可以的话直接上传到Github仓库
+最近搭建了Github Blog，但是Jekyll写Blog比较困难，博客中每篇帖子是个需要固定格式的MarkDown文件，上传到Github后Jekyll框架才能转换成自己的格式，
+所以计划使用electron搭建个APP去生成MD文件，如果可以的话直接上传到Github仓库，项目正在构建中…
 博主也是第一次接触Electron，都是参考的其他博客中的方法，然后整理实践的.
 话不多说，开始第一个App搭建！
+
+
+
+
 
 ## 搭建app
 
@@ -37,8 +39,10 @@ $ npm install && npm start
 ```
 
 其实这时你的app已经可以运行了
-只不过，只是一个框架而已，还没有实现业务逻辑，诸位看官自己实现啦~
 ![tool](https://i.loli.net/2018/10/06/5bb89172860e9.png 'tool')
+
+只不过，只是一个框架而已，还没有实现业务逻辑，诸位看官自己实现啦~
+
 
 ## 打包
 博主用的是[electron-packager](https://github.com/electron-userland/electron-packager)
@@ -58,12 +62,12 @@ main.js index.html都是在根目录里，我们可以直接在根目录执行�
 $ electron-packager <location of project> <name of project> <platform> <architecture> <electron version> <optional options>
 ```
 命令说明：
-* location of project：项目所在路径 
-* name of project：打包的项目名字 
-* platform：确定了你要构建哪个平台的应用（Windows、Mac 还是 Linux） 
-* architecture：决定了使用 x86 还是 x64 还是两个架构都用 
-* electron version：electron 的版本 
-* optional options：可选选项
+* `location of project`：项目所在路径 
+* `name of project`：打包的项目名字 
+* `platform`：确定了你要构建哪个平台的应用（Windows、Mac 还是 Linux） 
+* `architecture`：决定了使用 x86 还是 x64 还是两个架构都用 
+* `electron version`：electron 的版本 
+* `optional options`：可选选项
 
 所以我们最终的打包命令就是
 ```md
@@ -85,4 +89,5 @@ $ npm run-script packager
 
 其实整个过程还是很简单的，正所谓会而不难，不过想真正了解底层实现逻辑或者说能够整体把握具体流程，还需要我们以后进一步学习.
 学海无涯啊
+之后在实现BlogEditor业务逻辑时，我会继续更新一些有价值的干货 :)
 

@@ -28,7 +28,7 @@ type: page
 
 ## 联系我
 
-* GitHub：[lweiGitHub](https://github.com/lweiGitHub)
+* GitHub：[islwei](https://github.com/islwei)
 * Email：elijah.wei@outlook.com
 
 ## 关于本站
@@ -39,7 +39,7 @@ type: page
 
 ~欢迎使用~
 
-欢迎大家提一些对本站主题的建议，可以直接在下面留言或者新建一个 [Issue](https://github.com/lweiGitHub/lweiGitHub.github.io/issues)。
+欢迎大家提一些对本站主题的建议，可以直接在下面留言或者新建一个 [Issue](https://github.com/islwei/islwei.github.io/issues)
 
 ### Update Log
 
@@ -47,11 +47,7 @@ type: page
 
 - `[+]` 加入Gitalk评论功能
 
-- `[^]` Forked from 643435675/643435675.github.io 进行本地化修改
-
-## 友情链接
-
-[羡辙杂俎](http://zhangwenli.com/blog) \| [Anotherhome](https://www.anotherhome.net) \| [Reverland](http://reverland.org/) \| [ZhiLi](http://lizhipower.github.io/) \| [Simmer](http://simmer-jun.github.io/) \| [awthink](http://awthink.net/) \| [Aralic](http://aralic.github.io/) \| [zchen9](http://www.chen9.info/) \| [wuhuaji](http://wuhuaji.me/) \| [lisheng](http://www.lishengcn.cn/) \| [薛彬XueBin](http://axuebin.com/blog/) \| [TBOOX](http://www.tboox.org/cn/) \|  [Ling](http://linglinyp.com/)
+- `[·]` Forked from 643435675/643435675.github.io 进行本地化修改
 
 ## Comments
 
