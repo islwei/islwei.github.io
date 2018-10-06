@@ -65,7 +65,7 @@ $ electron-packager <location of project> <name of project> <platform> <architec
 * `location of project`：项目所在路径 
 * `name of project`：打包的项目名字 
 * `platform`：确定了你要构建哪个平台的应用（Windows、Mac 还是 Linux） 
-* `architecture`：决定了使用 x86 还是 x64 还是两个架构都用 
+* `architecture`：决定了使用 x86 还是 x64 还是两个架构都用
 * `electron version`：electron 的版本 
 * `optional options`：可选选项
 
@@ -73,12 +73,18 @@ $ electron-packager <location of project> <name of project> <platform> <architec
 ```md
 $ electron-packager . BlogEditor --platform=win32 --arch=x64 --icon=../img/favicon.ico --out=../BuildOut --asar --app-version=0.0.1
 ```
-包就会打在根目录里
+这里我们增加了一些命令
+* `icon`：app icon
+* `out`：Package输出路径
+* `asar`：采用asar封装和加密app目录
+* `app-version` app版本
+
+命令执行成功之后，包会输出到工程根目录里
 
 ![config](https://i.loli.net/2018/10/06/5bb893d9d7059.png 'config')
 
-不过这种打包命令的参数太多，有点反人类，所以我们可以像上面图片中蓝色框中配置一下，然后简单命令就可以实现相同效果
-新的打包命令就是
+不过这种打包命令的参数太多，有点反人类，所以我们可以像上面图片中蓝色框中的配置一样，简单命令就可以实现相同效果
+所以新的打包命令就是
 ```md
 $ npm run-script packager
 ```
