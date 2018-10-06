@@ -71,7 +71,7 @@ $ electron-packager . BlogEditor --platform=win32 --arch=x64 --icon=../img/favic
 ```
 包就会打在根目录里
 
-![config](https://github.com/islwei/islwei.github.io/blob/master/_picture/toolimg1.png 'config')
+![config](https://i.loli.net/2018/10/06/5bb893d9d7059.png 'config')
 
 不过这种打包命令的参数太多，有点反人类，所以我们可以像上面图片中蓝色框中配置一下，然后简单命令就可以实现相同效果
 新的打包命令就是
