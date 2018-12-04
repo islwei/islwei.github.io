@@ -32,10 +32,9 @@ Setting new product key with StorePID.exe (MS Docs).
 * maybe a restart
 
 Possible Microsoft Product Codes (MPC) are:
-
-* `08860` Visual Studio Enterprise 2017
-* `08862` Visual Studio Professional 2017
-* `08866` Visual Studio Test Professional 2017
+`08860` Visual Studio Enterprise 2017
+`08862` Visual Studio Professional 2017
+`08866` Visual Studio Test Professional 2017
 
 
 ## Remove The Key
