@@ -28,7 +28,7 @@ Setting new product key with StorePID.exe (MS Docs).
 * navigate to VS 2017 installation directory 
 (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE)
 * start cmd as admin
-* execute StorePID.exe <your_new_product_key> <MPC>
+* execute `StorePID.exe <your_new_product_key> <MPC>`
 * maybe a restart
 
 Possible Microsoft Product Codes (MPC) are:
