@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Change Or Remove the License Key of Visual Studio 2017"
+title:  "修改或者移除Visual Studio 2017的激活序列号"
 categories: VisualStudio
 tags:  technology
 author: Elijah
@@ -29,13 +29,12 @@ Setting new product key with StorePID.exe (MS Docs).
 3、execute StorePID.exe <your_new_product_key> <MPC>
 4、maybe a restart
 
-```md
 Possible Microsoft Product Codes (MPC) are:
 
 * `08860` Visual Studio Enterprise 2017
 * `08862` Visual Studio Professional 2017
 * `08866` Visual Studio Test Professional 2017
-```
+
 
 ## Remove The Key
 
