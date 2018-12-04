@@ -9,6 +9,14 @@ author: Elijah
 * content
 {:toc}
 
+网上随便找了一个VS2017的激活key，成功的激活了VS2017，但是由于公司的要求，只允许使用正版激活序列号，所以尝遍各种方式去移除或者更换序列号：
+- Repair
+- Uninstall 然后 Install
+- InstallCleanup之后 再次Uninstall 然后 Install
+打开VS之后还是显示已经激活，已经打算重做OS，看到了修改注册表的帖子，试了一下，的确好用。
+记录、分享出来！
+
+
 
 
 
